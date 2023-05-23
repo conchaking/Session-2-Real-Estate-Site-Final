@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="contact-header">
+        <div class="site-bar">
+            <img src="img/logo.svg" alt="logo">
+            <nav>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="contact-container">
+        <h2>Contact</h2>
+        <p class="contact-text">Fill the next information</p>
+    
+        
+        
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="frame">Name:</label>
+        <input class="input-control" type="text" id="frame" placeholder="Type your name">
+        
+        <label for="uemail">Email:</label>
+        <input class="input-control" type="email" id="uemail" placeholder="Type your email" required>
+        
+        <label for="phone">Phone number</label>
+        <input class="input-control" type="tel" id="phone" placeholder="Type your cellphone" required>
+
+        <label for="msg">Message</label>
+        <textarea class="input-control" name="msg" id="msg" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <!--add the fieldset for product's information-->
+    <fieldset>
+        <legend>Products information</legend>
+        <label for="frame">Number:</label>
+        <input class="input-control" type="number" id="frame" placeholder="Type a number or something like that">
+
+        <select name="id">
+            <option value="luxury">Luxury House</option>
+            <option value="condominiums">condominiums</option>
+            <option value="penthouse">Penthouses</option>
+        </select>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+        <input type="radio" name="contact"> <label for="">Phone</label>
+        <input type="radio" name="contact"> <label for="">Email</label>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+
+        <label for="hours">Hours</label>
+        <input type="time">
+    </fieldset>
+    
+    <button>Send</button>
+    </main>
